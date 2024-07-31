@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia em HTML</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abri este site em vários dispositivos diferentes ou aumente e diminua a tela para testar.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto_p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto_m.png" type="image/png">
+        <img src="imagens/foto_g.png" alt="Foto flexivel">
+    </picture>
+
+    <h1>reproduzindo áudio</h1>
+    <p>Vamos aprender a inserir alguns áudios em HTML5.</p>
+    <h2>Mistérios da Árvore da Vida_ O Que Poucos Conhecem - Parte 1 atual</h2>
+    <audio preload="metadata" controls autoplay>
+        <source src="midia/Mistérios da Árvore da Vida_ O Que Poucos Conhecem - Parte 1 atual.mp3" type="audio/mpeg">
+        <source src="midia/Mistérios-da-Árvore-da-Vida_-O-Que-Poucos-Conhecem-Parte-1-atual.ogg.ogg" type="audio/ogg">
+        <p>Infelizmente seu navegador não está reproduzinho áudio.</p>
+    </audio>
+    <h2>Salomão_ O Sábio Rei que Caiu pela Sua Própria Sabedoria parte 2</h2>
+    <audio preload="metadata" controls autoplay>
+        <source src="midia/Salomão_ O Sábio Rei que Caiu pela Sua Própria Sabedoria parte 2.mp3" type="audio/mpeg">
+        <source src="midia/Salomão_-O-Sábio-Rei-que-Caiu-pela-Sua-Própria-Sabedoria-parte-2.ogg.ogg" type="audio/ogg">
+        <p>Infelizmente seu navegador não está reproduzinho áudio.</p>    
+    </audio>
+    <h2>The Rainy Road - Lish Grooves</h2>
+    <audio preload="metadata" controls autoplay>
+        <source src="midia/The Rainy Road - Lish Grooves.mp3" type="audio/mpeg">
+        <source src="midia/The-Rainy-Road-Lish-Grooves.ogg.ogg" type="audio/ogg">
+        <p>Infelizmente seu navegador não está reproduzinho áudio.</p>
+    </audio>
+
+</body>
+</html>
