@@ -6,23 +6,29 @@
 <style>
     body {
         height: 100vh;
-        background-color: black;
+        /*background-color: black;
         background-image: url(imagens/wallpaper002.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
+        background-attachment: fixed;*/
+        background: black url('imagens/wallpaper002.jpg') center center no-repeat  fixed;
+        background-size: cover;
+
+        /*Apesar de ser regra pela W3C não está aceitando a posição. Portanto, deve-se usar o background-size: cover; separado.*/
+
     }
 
     main {
         background-color: white;
-        width: 400px;
+        max-width: 400px;
         padding: 10px;
         margin: auto;
         border: 1px solid blue;
         border-radius: 10px;
     }
 </style>
-    <title>teste de fundo</title>
+    <title>Fundo de tela fixo</title>
     
 </head>
 <body>
