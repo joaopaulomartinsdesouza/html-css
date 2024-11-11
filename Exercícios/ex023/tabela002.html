@@ -12,6 +12,8 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative; /*position: relative; É obrigatório a colocação desse comando.*/
+            
         }
         td, th {
            border: 1px solid black;
@@ -29,7 +31,15 @@
             text-align: right;
         }
 
+        tbody > tr:nth-child(even) {
+            background-color: lightgrey;
+        }
 
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
     </style>
 </head>
 <body>
@@ -160,5 +170,46 @@
             <td>xxxxx</td>
         </tfoot>
     </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus eaque totam exercitationem incidunt autem facere dolorem expedita dolor soluta! Temporibus rerum quos non obcaecati id ducimus facere explicabo quo?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus eaque totam exercitationem incidunt autem facere dolorem expedita dolor soluta! Temporibus rerum quos non obcaecati id ducimus facere explicabo quo?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus eaque totam exercitationem incidunt autem facere dolorem expedita dolor soluta! Temporibus rerum quos non obcaecati id ducimus facere explicabo quo?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus eaque totam exercitationem incidunt autem facere dolorem expedita dolor soluta! Temporibus rerum quos non obcaecati id ducimus facere explicabo quo?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus eaque totam exercitationem incidunt autem facere dolorem expedita dolor soluta! Temporibus rerum quos non obcaecati id ducimus facere explicabo quo?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus eaque totam exercitationem incidunt autem facere dolorem expedita dolor soluta! Temporibus rerum quos non obcaecati id ducimus facere explicabo quo?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus eaque totam exercitationem incidunt autem facere dolorem expedita dolor soluta! Temporibus rerum quos non obcaecati id ducimus facere explicabo quo?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus eaque totam exercitationem incidunt autem facere dolorem expedita dolor soluta! Temporibus rerum quos non obcaecati id ducimus facere explicabo quo?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus eaque totam exercitationem incidunt autem facere dolorem expedita dolor soluta! Temporibus rerum quos non obcaecati id ducimus facere explicabo quo?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus eaque totam exercitationem incidunt autem facere dolorem expedita dolor soluta! Temporibus rerum quos non obcaecati id ducimus facere explicabo quo?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus eaque totam exercitationem incidunt autem facere dolorem expedita dolor soluta! Temporibus rerum quos non obcaecati id ducimus facere explicabo quo?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus eaque totam exercitationem incidunt autem facere dolorem expedita dolor soluta! Temporibus rerum quos non obcaecati id ducimus facere explicabo quo?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus eaque totam exercitationem incidunt autem facere dolorem expedita dolor soluta! Temporibus rerum quos non obcaecati id ducimus facere explicabo quo?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus eaque totam exercitationem incidunt autem facere dolorem expedita dolor soluta! Temporibus rerum quos non obcaecati id ducimus facere explicabo quo?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus eaque totam exercitationem incidunt autem facere dolorem expedita dolor soluta! Temporibus rerum quos non obcaecati id ducimus facere explicabo quo?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus eaque totam exercitationem incidunt autem facere dolorem expedita dolor soluta! Temporibus rerum quos non obcaecati id ducimus facere explicabo quo?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus eaque totam exercitationem incidunt autem facere dolorem expedita dolor soluta! Temporibus rerum quos non obcaecati id ducimus facere explicabo quo?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus eaque totam exercitationem incidunt autem facere dolorem expedita dolor soluta! Temporibus rerum quos non obcaecati id ducimus facere explicabo quo?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus eaque totam exercitationem incidunt autem facere dolorem expedita dolor soluta! Temporibus rerum quos non obcaecati id ducimus facere explicabo quo?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus eaque totam exercitationem incidunt autem facere dolorem expedita dolor soluta! Temporibus rerum quos non obcaecati id ducimus facere explicabo quo?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus eaque totam exercitationem incidunt autem facere dolorem expedita dolor soluta! Temporibus rerum quos non obcaecati id ducimus facere explicabo quo?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus eaque totam exercitationem incidunt autem facere dolorem expedita dolor soluta! Temporibus rerum quos non obcaecati id ducimus facere explicabo quo?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus eaque totam exercitationem incidunt autem facere dolorem expedita dolor soluta! Temporibus rerum quos non obcaecati id ducimus facere explicabo quo?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus eaque totam exercitationem incidunt autem facere dolorem expedita dolor soluta! Temporibus rerum quos non obcaecati id ducimus facere explicabo quo?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus eaque totam exercitationem incidunt autem facere dolorem expedita dolor soluta! Temporibus rerum quos non obcaecati id ducimus facere explicabo quo?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus eaque totam exercitationem incidunt autem facere dolorem expedita dolor soluta! Temporibus rerum quos non obcaecati id ducimus facere explicabo quo?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus eaque totam exercitationem incidunt autem facere dolorem expedita dolor soluta! Temporibus rerum quos non obcaecati id ducimus facere explicabo quo?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus eaque totam exercitationem incidunt autem facere dolorem expedita dolor soluta! Temporibus rerum quos non obcaecati id ducimus facere explicabo quo?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus eaque totam exercitationem incidunt autem facere dolorem expedita dolor soluta! Temporibus rerum quos non obcaecati id ducimus facere explicabo quo?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus eaque totam exercitationem incidunt autem facere dolorem expedita dolor soluta! Temporibus rerum quos non obcaecati id ducimus facere explicabo quo?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus eaque totam exercitationem incidunt autem facere dolorem expedita dolor soluta! Temporibus rerum quos non obcaecati id ducimus facere explicabo quo?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus eaque totam exercitationem incidunt autem facere dolorem expedita dolor soluta! Temporibus rerum quos non obcaecati id ducimus facere explicabo quo?
+    </p>
 </body>
 </html>
