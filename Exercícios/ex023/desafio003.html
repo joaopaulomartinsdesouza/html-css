@@ -44,50 +44,58 @@
 <body>
     <table>
         <caption>Filmes Favoritos</caption>
-        <tr>
-            <td class="font-bold">Grupo</td>
-            <td class="font-bold">Nomes</td>
-            <td colspan="3"  class="font-bold">Filmes</td>
+        <thead>
+            <tr>
+                <th scope="col" class="font-bold">Grupo</th>
+                <th scope="col" class="font-bold">Nomes</th>
+                <th scope="colgroup" colspan="3"  class="font-bold">Filmes</th>
             
-        </tr>
-        <tr>
-            <td rowspan="3" class="font-bold">Mulheres</td>
-            <td>Ana Maria santos</td>
-            <td>Alien</td>
-            <td>Rambo</td>
-            <td>Vingadores</td>
-        </tr>
-        <tr>
-            <td>Beatriz Souza</td>
-            <td>Hulk</td>
-            <td>Inception</td>
-            <td>Batman</td>
-        </tr>
-        <tr>
-            <td>Claudia Melo</td>
-            <td>Oblivion</td>
-            <td>Matrix</td>
-            <td>Big Hero</td>
-        </tr>
-        <tr>
-            <td rowspan="3" class="font-bold">Homens</td>
-            <td>Bruno Mendonça</td>
-            <td>Intocáveis</td>
-            <td>Amnésia</td>
-            <td>Gladiador</td>
-        </tr>
-        <tr>
-            <td>Daniel Lourenço</td>
-            <td>Wall-E</td>
-            <td>Oldboy</td>
-            <td>Dangal</td>
-        </tr>
-        <tr>
-            <td>Fabiano Mota</td>
-            <td>Star Wars 5</td>
-            <td>Taxi Driver</td>
-            <td> Toy Story</td>
-        </tr>
+            </tr>
+        </thead>
+        <tfoot>
+            <th scope="row" colspan="4">Total</th>
+            <td>1000</td>
+        </tfoot>
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="3" class="font-bold">Mulheres</th>
+                <td>Ana Maria santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Beatriz Souza</td>
+                <td>Hulk</td>
+                <td>Inception</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <td>Claudia Melo</td>
+                <td>Oblivion</td>
+                <td>Matrix</td>
+                <td>Big Hero</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="3" class="font-bold">Homens</th>
+                <td>Bruno Mendonça</td>
+                <td>Intocáveis</td>
+                <td>Amnésia</td>
+                <td>Gladiador</td>
+            </tr>
+            <tr>
+                <td>Daniel Lourenço</td>
+                <td>Wall-E</td>
+                <td>Oldboy</td>
+                <td>Dangal</td>
+            </tr>
+            <tr>
+                <td>Fabiano Mota</td>
+                <td>Star Wars 5</td>
+                <td>Taxi Driver</td>
+                <td> Toy Story</td>
+            </tr>
+        </tbody>
     </table>
     
 </body>
