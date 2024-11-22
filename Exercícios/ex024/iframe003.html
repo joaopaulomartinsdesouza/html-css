@@ -1,11 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Teste de Navegação no Iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2em;
+        }
+
+        iframe {
+            border: 1px solid black;
+            width: 98vw;
+            height: 300px;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Teste de Navegação no Iframe</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident quas aliquid laboriosam blanditiis voluptatum sapiente quos omnis iste quibusdam, quasi consequatur impedit minima doloribus neque facilis, nihil accusantium nobis! Non!</p>
+
+    <a href="paginas-extras/pag001.html" target="frame">
+        <li>Primeira página</li>
+    </a>
+    <a href="paginas-extras/pag002.html" target="frame">
+        <li>Segunda página</li>
+    </a>
+    <a href="paginas-extras/pag003.html" target="frame">
+        <li>Terceira página</li>
+    </a>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident quas aliquid laboriosam blanditiis voluptatum sapiente quos omnis iste quibusdam, quasi consequatur impedit minima doloribus neque facilis, nihil accusantium nobis! Non!</p>
+
+    <iframe src="" frameborder="0" name="frame" srcdoc="<h1>Escolha uma das Opções Acima</h1><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, placeat. Temporibus neque distinctio debitis minus optio, odit dignissimos voluptas obcaecati architecto fugit deserunt. Voluptate porro natus laborum, impedit ullam at?</p> <img src='imagens/cursoemvideo.png'</img>">
+        <p>Este dispositivo não é compativem com a tecnologia iframe.</p>
+    </iframe>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident quas aliquid laboriosam blanditiis voluptatum sapiente quos omnis iste quibusdam, quasi consequatur impedit minima doloribus neque facilis, nihil accusantium nobis! Non!</p>
 </body>
 </html>
