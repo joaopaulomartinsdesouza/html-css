@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Formulário</title>
+</head>
+<body>
+    <form action="" method="post" autocomplete="on">
+    <p><label for="iestado">Estado:<select name="estado" id="iestado">
+            <option value="">---Selecione Estado---</option>
+            <optgroup label="Suldeste">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+            </optgroup>
+
+            <optgroup label="Nordeste">
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espirito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+            </optgroup>
+
+            <optgroup label="Norte">
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+            </optgroup>
+            
+            <optgroup label="Sul">
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+            </optgroup>
+            
+            <optgroup label="Oeste">
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </optgroup>
+        
+    </select></label></p>
+
+    <p>
+        <label for="iprofissao">Profissão<input type="text" name="profissao" id="iprofissao" list="list-profissao"></label>
+        <datalist id="list-profissao">
+            <optgroup label="Administração, negócios e serviços">
+                <option value="administrador"></option>
+                <option value="Administração"></option>
+                <option value="Administração Pública"></option>
+                <option value="Agronegócios e Agropecuária"></option>
+                <option value="Ciências Aeronáuticas"></option>
+                <option value=""></option>
+                <option value="Ciências Atuariais"></option>
+                <option value="Ciências Contábeis"></option>
+                <option value="Ciências Econômicas"></option>
+                <option value="Comércio Exterior"></option>
+                <option value="Defesa e Gestão Estratégica Internacional"></option>
+                <option value="Gastronomia"></option>
+                <option value="Gestão Comercial"></option>
+                <option value="Gestão de Recursos Humanos"></option>
+                <option value="Gestão de Segurança Privada"></option>
+                <option value="Gestão de Seguros"></option>
+                <option value="Gestão de Turismo"></option>
+                <option value="Gestão Financeira"></option>
+                <option value="Gestão Pública"></option>
+                <option value="Hotelaria"></option>
+                <option value="Logística"></option>
+                <option value="Marketing"></option>
+                <option value="Negócios Imobiliários"></option>
+                <option value="Pilotagem profissional de aeronaves"></option>
+                <option value="Processos Gerenciais"></option>
+                <option value="Segurança Pública"></option>
+                <option value="Turismo"></option>
+            </optgroup>
+        </datalist>
+    </p>
+
+    <p>
+        <label for="imensagem">Mensagem:</label>
+        <textarea name="mesangem" id="imensagem" cols="30" rows="10"></textarea>
+    </p>
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
