@@ -15,7 +15,7 @@ menu {
 }
 
 article::after {
-    content: Esse conteúdo foi impresso pelo site www.curosemvideo.com;
+    content: 'Esse conteúdo foi impresso pelo site www.curosemvideo.com';
 }
 
 article {

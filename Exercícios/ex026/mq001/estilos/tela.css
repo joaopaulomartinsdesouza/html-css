@@ -33,4 +33,6 @@ article {
     width: 600px;
     display: block;
     margin: auto;
+    text-align: justify;
+    text-indent: 30px;
 }
