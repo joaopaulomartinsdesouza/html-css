@@ -2,6 +2,26 @@
 
 /*Medias Queries Para dispositivos Diversos*/
 
-@media screen {
-    
+@media screen and (min-width: 768px) { /* TABLETS*/
+  
+    header > span#burguer {
+        display: none;
+    }
+
+header > menu {
+    display: block;
+}
+
+menu > ul > li {
+    display: inline-block;
+}
+
+menu > ul > li > a {
+    border: none;
+}
+
+main {
+    width: 768px;
+}
+
 }
