@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+/*1º versão principal telefone celular*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.12em;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background: black url(../imagens/back-phone.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 90vh;
+
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.671);
+    width: 90vw;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.74) 2px 2px 2px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+img#impressao {
+    display: none;
+}
+
+
+img#telefone {
+    display: block;
+}
+img#tablet {
+    display: none;
+}
+
+img#computador {
+    display: none;
+}
+
+img#televisao {
+    display: none;
+}
+
+footer#impressao {
+    display: none;
+}
+
+
+
+

@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+/*2º versões para todos os dispositivos*/
+/* Typical Device Breakpoints
+-------------------------------------
+Pequenas telas: até 600px;
+Celulares: de 600px até 768px;
+Tablets: de 768px até 992px;
+Desktops: 992px até 1200px;
+Grandes telas: acima de 1200px.
+*/
+
+@media print {
+
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    
+    body {
+        background-image: url(../back-print.jpg); /*desnessário. NÃO PRECISA DE BACKGROUND NA IMPRESSÃO*/
+    }
+
+    main {
+        border: 2px solid black;
+        width: 90vw;
+        font-size: .8em;
+        text-align: center;
+       
+    }
+
+    main h1 {
+        text-shadow: none;
+        color: black;
+        
+    }
+
+    main::after {
+        content: 'Este artigo foi impresso pelo site www.cursoemvideo.com';
+       
+    }
+
+    img {
+        display: block;
+        margin: auto;
+    }
+
+    img#impressao {
+        display: block;
+    }
+    
+    img#telefone {
+        display: none;
+    }
+    img#tablet {
+        display: none;
+    }
+    
+    img#computador {
+        display: none;
+    }
+    
+    img#televisao {
+        display: none;
+    }
+    
+    footer::after {
+        content: 'Este artigo foi impresso pelo site www.cursoemvideo.com';
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) { /*TABLET*/
+
+    body {
+        background-image: url(../back-tablet.jpg);
+        background-repeat: no-repeat;
+    }
+
+    main {
+        width: 75%;
+        height: 40%;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+    }
+
+    img#impressao {
+        display: none;
+    }
+    
+    img#telefone {
+        display: none;
+    }
+    img#tablet {
+        display: block;
+    }
+    
+    img#computador {
+        display: none;
+    }
+    
+    img#televisao {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) { /* COMPUTADOR*/
+
+    body {
+        background-image: url(../back-pc.jpg);
+    }
+
+    main {
+        width: 700px;
+        height: 300px;
+    }
+    
+    img {
+        display: block;
+        margin: auto;
+    }
+
+    img#impressao {
+        display: none;
+    }
+    
+    img#telefone {
+        display: none;
+    }
+    img#tablet {
+        display: none;
+    }
+    
+    img#computador {
+        display: block;
+    }
+    
+    img#televisao {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) { /*TELAS GRANDES*/
+    
+    body {
+        background-image: url(../back-tv.jpg);
+    }
+
+    main {
+        width: 900px;
+        height: 400px;
+    }
+
+    img#impressao {
+        display: none;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+    }
+    
+    img#telefone {
+        display: none;
+    }
+    img#tablet {
+        display: none;
+    }
+    
+    img#computador {
+        display: none;
+    }
+    
+    img#televisao {
+        display: block;
+    }
+}
